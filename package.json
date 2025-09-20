@@ -1,0 +1,19 @@
+{
+  "name": "newm_n315_hw2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "James Dohner",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile-sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.92.1"
+  },
+  "devDependencies": {}
+}
